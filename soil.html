@@ -1,0 +1,31 @@
+<!-- soil.html (Soil Analysis Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soil Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🌱 Soil Analysis</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="soil.html">Soil Analysis</a></li>
+                <li><a href="weather.html">Weather Forecast</a></li>
+                <li><a href="tips.html">Farming Tips</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="container">
+        <h2>Enter Soil Type:</h2>
+        <input type="text" id="soilType" placeholder="Sandy, Clay, Loamy">
+        <button onclick="analyzeSoil()">Analyze</button>
+        <p id="cropResult"></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
